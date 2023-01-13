@@ -2,12 +2,13 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(59, 59, 59);
 }
 
 header{
     display: flex;
     align-items: center;
-    background-color: rgb(3, 30, 53);
+    background-color: rgb(33, 33, 33);
     color: white;
     border: 2px black solid;
     border-radius: .5rem;
@@ -36,10 +37,29 @@ main h2{
 
 footer{
     align-items: center;
-    background-color: rgb(3, 30, 53);
+    background-color: rgb(33, 33, 33);
     color: white;
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
     border-radius: .5rem;
 }
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: orange;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

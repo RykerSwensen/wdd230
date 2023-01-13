@@ -1,0 +1,5 @@
+@media (min-width: 1600px){
+    main{
+        grid-template-areas: "s1 s2 s3";
+    }
+}

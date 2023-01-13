@@ -1,0 +1,20 @@
+@media (min-width: 1100px){
+    main{
+        display: grid;                
+        grid-template-areas: "s1 s2"
+                             "s3 s3";
+    }
+    
+    #principle1{
+        grid-area: s1;
+    }            
+    
+    #principle2{
+        grid-area: s2;
+    }
+
+    #principle3{
+        grid-area: s3;
+    }
+    
+}
