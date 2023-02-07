@@ -47,7 +47,7 @@ header, footer{
 
 .header-today{
     text-align: center;
-    background-color: var(--frame));        
+    background-color: var(--frame);        
     padding: .25rem;
 }
 
