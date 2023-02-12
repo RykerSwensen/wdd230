@@ -182,7 +182,6 @@ nav ul.menu-active{
     padding: 1rem;
     margin: .5rem;
     background-color: var(--background-light);
-    display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 10px;
@@ -202,9 +201,6 @@ nav ul.menu-active{
     border: 1px solid var(--frame);
     margin: .5rem;
     padding: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin: 10px;
     text-align: center;
     border-radius: 15px;
@@ -333,3 +329,14 @@ img {
     width: 25%;
     height: auto;
 }
+
+.main-weather {
+    grid-area: w;
+    text-align: center;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
