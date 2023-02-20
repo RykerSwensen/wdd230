@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">    
-    <script src="./scripts/site.js" defer></script>
+    <script src="./scripts/header-footer.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -19,7 +20,7 @@
             <a href="../index.html"><img id="home" src="images/Pretend.png" alt="home icon"></a>            
           </div>          
           <div class="header-title">
-            <h1>Teton Idaho</h1>
+            <h1>Pretend</h1>
             <h2>Chamber of Commerce</h2>
           </div>
           <div class="header-icons">
@@ -48,38 +49,59 @@
     </header>
     <main class="home-main">
       <section class="main-hero">
-        <h3>Hero</h3>
-        <p>Nothing Yet</p>        
+        <h3>Welcome to the Pretend Chamber of Commerce!</h3>
+        <p><img src="./images/city.jpg" alt="city"></p>
+        
+        <form style="display: inline" action="join.html" method="get">
+        <button>Join Us!</button>
+      </form>   
       </section>
       <section class="main-event">
-        <h3>Current Event</h3>
-        <p>Nothing Yet</p>
+        <p class="centered-image"><img src="./images/hackathon.jpg" alt="hackathon"></p>
+        <h3>Join us for the annual hackathon!</h3> 
+        <p>Events for all skill ranges!</p>
       </section>
       <section class="main-weather">
         <h3>Current Weather</h3>
-        <p>Nothing Yet</p>
+        <img id="weathericon" src="images/weather.jpg" alt="weather">
+        <h2><span id="temperature">?</span>&deg; F</h2>
+        <h2 id="weatherdesc">Clear</h2>
+        <hr>
+        <h3>Wind Speed: <span id="windspeed">?</span> mph</h3>
+        <h3>Wind Chill: <span id="windchill">?</span>&deg; F</h3>
       </section>
       <section class="main-news">
-        <h3>News</h3>
-        <p>Nothing Yet</p>        
+        <h3>Pretend Art Contest</h3>
+        <p class="centered-image"><img src="./images/artcon.jpg" alt="artcon"></p>
+        <p>The pretend art contest was organized to try and bring out the artistic expression of the pretend people. </p>
+        
+        <p>Courtsey of <a href="https://fineartamerica.com/contests.html">fineartamerica.com</a></p>    
       </section>      
       <section class="main-spotlight">
         <div class="spotlight1">
-          <h3>Spotlight 1</h3>
-          <p>Nothing Yet</p>      
+          <h4>CupBop</h4>
+          <p class="centered-image"><img src="./images/cupbop.jpg" alt="cupbop"></p>
+          <p>cupbop has come to town!</p>      
+          <p>Be sure to stop by and grab a bite!</p>   
         </div>  
         <div class="spotlight2">
-          <h3>Spotlight 2</h3>
-          <p>Nothing Yet>      
+          <h4>Local Fire Department</h4>
+          <p class="centered-image"><img src="./images/firredep.jpg" alt="firedep"></p>  
+          <p>Firefighters are the heros of our local community!</p>
+          <p>We thank them for keeping our community safe.</p>      
         </div>  
         <div class="spotlight3">
-          <h3>Spotlight 3</h3>
-          <p>Nothing Yet</p>      
+          <h4>Local Foodbank</h4>
+            <p class="centered-image"><img src="./images/foodbank.jpg" alt="foodbank"></p>  
+            <p>We understand that times are hard, and it can be hard to put food on the table.</p>
+            <p>We’ve been on a passionate journey to help those in need.</p>      
         </div>  
       </section>
       <section class="main-join">
-        <h3>Join Us</h3>
-        <p>Nothing Yet</p> 
+        <h4>Join the Pretend Chamber of Commerce and experience all we have to offer.</h4> 
+        <form style="display: inline" action="join.html" method="get">
+          <button>Join Us!</button>
+        </form>
       </section>     
     </main>
     <footer>

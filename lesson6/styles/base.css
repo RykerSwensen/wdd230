@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');  
+
+:root {
+    --main: rgb(255, 131, 84);
+    --background-light: rgb(79, 93 ,117);
+    --background-dark: rgb(45, 49, 66);
+    --frame: rgb(191, 192, 192);
+    --text-main: rgb(255, 255, 255);
+
+    --text-1: 'Oswald', Oswald;
+    --text-2: 'Gill Sans', sans-serif;
+}
+
+
+body {
+  font-family: var(--text-1);    
+  background-color: var(--background-dark);
+}
+
+header {
+    background-color: var(--main);
+    border-style: none none solid none;
+    border-width: thick;
+    border-color: var(--frame);
+    top: 0px;
+    width: 100%;
+    font-family: var(--text-1);
+    padding: 0.3em;
+}
+
+header, footer{
+    background-color: var(--main);
+    border: 1px var(--frame);        
+}
+
+.header-top{
+    display: grid;    
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.header-icons{    
+    text-align: center;
+}
+
+.header-today{
+    text-align: center;
+    background-color: var(--frame);        
+    padding: .25rem;
+}
+
+/* Footer */
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.footer-base{
+    text-align: center;
+}
+
+.footer-contact{
+    text-align: center;
+}
+
+.footer-map{
+    text-align: center;    
+}
+
+footer hr{
+    height: 1px;
+    background-color: var(--frame);    
+    border: none;        
+}
+
+/* Nav bar styling */
+
+nav ul{
+    /* display: flex; */
+    flex-direction: column;    
+    width: 100%;
+    padding-inline-start: 0px;
+    background-color:var(--background-dark);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-family: var(--text-1);
+    flex-wrap: wrap;
+    float: none;
+}
+
+nav ul li{
+    list-style: none;    
+    flex: 1;
+    border: 1px var(--frame);
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: var(--frame);
+    text-align: center;
+    padding: .5rem;
+}
+
+.navbar ul li a div {
+    background-color: var(--background-light);
+    color: var(--text-main);
+}
+
+.navbar ul {
+    width: 100%;
+    padding: 0;
+}
+
+.navbar li {
+    display: block;
+    list-style: none;
+    margin: auto;
+    border-style: solid;
+    border-width: 4px;
+    padding: 0;
+    width: 85%;
+
+}
+
+a {
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+nav ul li a.active{
+    background-color: var(--frame);
+}
+
+nav ul li a:hover{
+    background-color: var(--background-light);
+}
+
+/** Hamburger menu stuff **/
+
+#hamburger-menu{
+    background-color: var(--frame);
+    border: 0;    
+    margin: 0;
+}
+
+#hamburger-x{
+    display: none;
+}
+
+#hamburger-equiv{
+    display: inline;
+}
+
+nav ul.menu-active{
+    display: flex;
+}
+
+#hamburger-x.menu-active{
+    display: inline;
+}
+
+#hamburger-equiv.menu-active{
+    display: none;
+}
+
+/** Main Page Stuff **/
+
+.home-main section{
+    border: 2px solid var(--frame);
+    padding: 1rem;
+    margin: .5rem;
+    background-color: var(--background-light);
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+    font-weight: 400;
+    font-style: italic;
+    font-size: small;
+    color: var(--text-main);
+    font-family: var(--text-2);
+}
+
+.home-main div{
+    border: 1px solid var(--frame);
+    margin: .5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+}
+
+.main-hero{
+    grid-area: h;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+}
+
+.main-event{
+    grid-area: e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+}
+
+.main-news{
+    grid-area: n;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+}
+
+.main-weather{
+    grid-area: w;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+}
+
+.main-join{
+    grid-area: j;
+    display: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+}
+
+.main-spotlight{
+    grid-area: x;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+    background-color: var(--frame);
+}
+
+.main-spotlight div{    
+    background-color: var(--background-dark);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+}
+
+.spotlight3{    
+    display: none;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--frame);
+    padding: 3em;
+    background-color: var(--frame);
+}
+
+
+#header-logo {
+    padding: 0.5em;
+    margin: 15px;
+    display: inline-flex;
+    flex-basis: 10%;
+    margin: auto;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
