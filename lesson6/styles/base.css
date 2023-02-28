@@ -1,12 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');  
+
+:root {
+    --main: rgb(244, 241, 222);
+    --background-light: rgb(129, 178 ,154);
+    --background-dark: rgb(61, 64, 91);
+    --frame: rgb(242, 204, 143);
+    --accent: rgb(224, 122, 95);
+    --text-main: rgb(255, 255, 255);
+    --text-black: rgb(0, 0, 0);
+
+    --text-1: 'Oswald', Oswald;
+    --text-2: 'Gill Sans', sans-serif;
+}
 
 body {
-  font-family: "Open Sans", sans-serif;    
-  background-color: #FACFAD;
+  font-family: var(--text-1);    
+  background-color: var(--background-light);
 }
 
 header, footer{
-    background-color: #F5AC72;
+    background-color: var(--background-light);
     border: 1px black solid;        
 }
 
@@ -28,7 +41,7 @@ header{
 
 .header-today{
     text-align: center;
-    background-color: #d49764;
+    background-color: var(--background-dark);
     padding: .25rem;
 }
 
@@ -53,7 +66,7 @@ header{
 
 hr{
     height: 3px;
-    background-color: #FACFAD;    
+    background-color: var(--background-light);    
     border: none;        
 }
 
@@ -67,7 +80,7 @@ nav ul{
     flex-direction: column;    
     width: 300px;
     padding-inline-start: 0px;
-    background-color:#ac8255;  
+    background-color:var(--background-light);  
     z-index: 1;
 }
 
@@ -83,24 +96,24 @@ nav ul li a{
     color: black;
     text-align: center;
     padding: 1rem;
-    background-color:#f3ba7d;  
+    background-color:var(--background-light);  
     font-size: 1.25rem;
 }
 
 nav ul li a.active{
-    background-color:#dda972;      
+    background-color:var(--background-dark);      
 }
 
 
 nav ul li a:hover{    
-    background-color:#dda972;      
+    background-color: var(--accent);      
     color: white;
 }
 
 /** Hamburger menu stuff **/
 
 #hamburger-menu{
-    background-color: #d49764;
+    background-color: var(--background-dark);
     border: 0;    
     margin: 0;
     position: absolute;
@@ -134,7 +147,7 @@ nav ul.menu-active{
 }
 
 #meet-greet.active{
-    background-color: #FACFAD;
+    background-color: var(--accent);
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid black;
@@ -148,7 +161,7 @@ nav ul.menu-active{
     border: 2px solid black;
     padding: 1rem;
     margin: .5rem;
-    background-color: #F5AC72;
+    background-color: var(--background-dark);
 }
 
 .home-main div{
@@ -173,6 +186,7 @@ nav ul.menu-active{
 
 .main-hero img{
     object-fit: cover;
+    height: auto;
 }
 
 .main-hero p{
@@ -180,7 +194,7 @@ nav ul.menu-active{
 }
 
 .main-hero h3{
-    background-color: orange;
+    background-color: var(--accent);
     margin-block-start: 0px;
     margin-block-end: 0px;
     padding: .5rem;
@@ -192,7 +206,7 @@ nav ul.menu-active{
     right: 50px;
     font-size: 1.5rem;
     padding: .5rem;
-    background-color: orange;    
+    background-color: var(--accent);
     border-radius: 10px;    
 }
 
@@ -205,7 +219,7 @@ nav ul.menu-active{
 }
 
 .main-hero button:hover{
-    background-color: orangered;    
+    background-color: var(--background-light);    
 }
 
 #nopad{
@@ -248,7 +262,7 @@ nav ul.menu-active{
 
 .main-join button{
     border-radius: 5px;
-    background-color: orange;
+    background-color: var(--accent);
     padding: .5rem;
     font-size: 1.5rem;    
     width: 100%;
@@ -261,7 +275,7 @@ nav ul.menu-active{
 }
 
 .main-join button:hover{
-    background-color: orangered;
+    background-color: var(--background-light);
 }
 
 .main-spotlight{
@@ -269,7 +283,7 @@ nav ul.menu-active{
 }
 
 .main-spotlight div{    
-    background-color: #FACFAD;
+    background-color: var(--accent);
 }
 
 .main-spotlight img{
