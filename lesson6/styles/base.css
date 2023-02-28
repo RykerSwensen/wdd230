@@ -1,24 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');  
-
-:root {
-    --main: rgb(88, 129, 87);
-    --background-light: rgb(163, 177 ,138);
-    --background-dark: rgb(52, 78, 65);
-    --frame: rgb(218, 215, 205);
-    --text-main: rgb(255, 255, 255);
-    --text-black: rgb(0, 0, 0);
-
-    --text-1: 'Oswald', Oswald;
-    --text-2: 'Gill Sans', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Ubuntu&display=swap");
 
 body {
-    font-family: var(--text-1);    
-    background-color: var(--background-dark);
+  font-family: "Open Sans", sans-serif;    
+  background-color: #FACFAD;
 }
 
 header, footer{
-    background-color: var(--main);
+    background-color: #F5AC72;
     border: 1px black solid;        
 }
 
@@ -40,7 +28,7 @@ header{
 
 .header-today{
     text-align: center;
-    background-color: var(--background-light);
+    background-color: #d49764;
     padding: .25rem;
 }
 
@@ -65,7 +53,7 @@ header{
 
 hr{
     height: 3px;
-    background-color: rgb(0, 0, 0);    
+    background-color: #FACFAD;    
     border: none;        
 }
 
@@ -79,7 +67,7 @@ nav ul{
     flex-direction: column;    
     width: 300px;
     padding-inline-start: 0px;
-    background-color:var(--background-light);  
+    background-color:#ac8255;  
     z-index: 1;
 }
 
@@ -95,24 +83,24 @@ nav ul li a{
     color: black;
     text-align: center;
     padding: 1rem;
-    background-color:var(--main);  
+    background-color:#f3ba7d;  
     font-size: 1.25rem;
 }
 
 nav ul li a.active{
-    background-color:var(--background-light);      
+    background-color:#dda972;      
 }
 
 
 nav ul li a:hover{    
-    background-color:var(--background-dark);      
+    background-color:#dda972;      
     color: white;
 }
 
 /** Hamburger menu stuff **/
 
 #hamburger-menu{
-    background-color: var(--background-dark);
+    background-color: #d49764;
     border: 0;    
     margin: 0;
     position: absolute;
@@ -146,7 +134,7 @@ nav ul.menu-active{
 }
 
 #meet-greet.active{
-    background-color: var(--background-light);
+    background-color: #FACFAD;
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid black;
@@ -160,7 +148,7 @@ nav ul.menu-active{
     border: 2px solid black;
     padding: 1rem;
     margin: .5rem;
-    background-color: var(--main);
+    background-color: #F5AC72;
 }
 
 .home-main div{
@@ -179,11 +167,12 @@ nav ul.menu-active{
 
 .main-hero{
     grid-area: h;
+    text-align: center;  
     position: relative;      
-    background-image: url('../images/900.jpg');    
-    background-position: center;
-    text-align: center;
-    height: 400px;         
+}
+
+.main-hero img{
+    object-fit: cover;
 }
 
 .main-hero p{
@@ -191,7 +180,7 @@ nav ul.menu-active{
 }
 
 .main-hero h3{
-    background-color: var(--background-light);
+    background-color: orange;
     margin-block-start: 0px;
     margin-block-end: 0px;
     padding: .5rem;
@@ -203,7 +192,7 @@ nav ul.menu-active{
     right: 50px;
     font-size: 1.5rem;
     padding: .5rem;
-    background-color: var(--background-light);    
+    background-color: orange;    
     border-radius: 10px;    
 }
 
@@ -216,7 +205,7 @@ nav ul.menu-active{
 }
 
 .main-hero button:hover{
-    background-color: var(--background-dark);    
+    background-color: orangered;    
 }
 
 #nopad{
@@ -259,7 +248,7 @@ nav ul.menu-active{
 
 .main-join button{
     border-radius: 5px;
-    background-color: var(--background-light);
+    background-color: orange;
     padding: .5rem;
     font-size: 1.5rem;    
     width: 100%;
@@ -272,7 +261,7 @@ nav ul.menu-active{
 }
 
 .main-join button:hover{
-    background-color: var(--background-dark);
+    background-color: orangered;
 }
 
 .main-spotlight{
@@ -280,7 +269,7 @@ nav ul.menu-active{
 }
 
 .main-spotlight div{    
-    background-color: var(--background-light);
+    background-color: #FACFAD;
 }
 
 .main-spotlight img{
@@ -295,6 +284,8 @@ nav ul.menu-active{
 .spotlight3{    
     display: none;    
 }
+
+
 
 
 
