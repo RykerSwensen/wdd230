@@ -1,0 +1,12 @@
+table{
+    border: 1px black solid;
+    border-collapse: collapse   ;
+}
+
+thread tr {
+    background-color: tan;
+}
+
+thread tr:nth-child(2) th:nth-child(1) {
+    
+}
