@@ -299,3 +299,7 @@ nav ul.menu-active{
 .spotlight3{    
     display: none;    
 }
+
+.centerimgdiv:hover{
+    transform: scale(1.05);
+}
