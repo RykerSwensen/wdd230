@@ -1,0 +1,45 @@
+/** Medium.css **/
+@media (min-width: 800px){
+    
+    .main-join{
+        display: block;
+    }    
+
+    .home-main{
+        display: grid;
+        grid-template-areas: "h h h"
+                             "n n n"
+                             "x x x"
+                             "j j j"
+                             "e e w";
+    }
+
+    .main-spotlight{
+        display: flex;
+    }
+
+    .main-hero{
+        grid-area: h;
+        position: relative;      
+        height: 600px; 
+        background-image: url('../images/1200.jpg');    
+    }
+
+    .footer-content{
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .footer-base{        
+        width: 33%;
+    }
+    
+    .footer-contact{
+        width: 33%;
+    }
+    
+    .footer-map{
+        width: 33%;
+    }
+    
+}

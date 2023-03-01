@@ -5,120 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chamber of Commerce Demonstration Site for WDD 230 - Winter 2023 - BYU-Idaho">
-    <title>Pretend Chamber of Commerce - Home</title>
+    <title>Pretend Chamber of Commerce - Discover</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">    
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/lazy.js" defer></script>
   </head>
   <body>
     <header>
+      <div id="meet-greet">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
       <div class="header-top">        
           <div class="header-logo">
-            <a href="../index.html"><img id="home" src="images/Pretend.webp" alt="home icon"></a>            
+            <a href="index.html"><img src="./images/logo.webp" alt="Logo"></a>            
           </div>          
           <div class="header-title">
             <h1>Pretend</h1>
             <h2>Chamber of Commerce</h2>
           </div>
           <div class="header-icons">
-            <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram-40.png" alt="instagram"></a>
-            <a href="https://www.pinterest.com" target="_blank"><img src="./images/pinterest-40.png" alt="pinterest"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram-40.png" alt="Instagram"></a>
+            <a href="https://www.pinterest.com" target="_blank"><img src="./images/pinterest-40.png" alt="Pinterest"></a>
           </div>
       </div>
       <nav>
         <button id="hamburger-menu">
-          <span id="hamburger-x"><img src="./images/hamburger-close.png" alt="hamclose"></span>
-          <span id="hamburger-equiv"><img src="./images/hamburger.png" alt="ham"></span>
+          <span id="hamburger-x"><img src="./images/hamburger-close.png" alt="HamburgerClose"></span>
+          <span id="hamburger-equiv"><img src="./images/hamburger.png" alt="Hamburger"></span>
         </button>
         <ul>
-            <li><a href="index.html">
-                <div id="active">Index</div>
-            </a></li>
-        <li><a href="target-audience.html">
-                <div>Target Audience</div>
-            </a></li>
-        <li><a href="design.html">
-                <div>Design</div>
-            </a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html" class="active">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <div class="header-today"><p></p></div>
     </header>
-    <main class="home-main">
-      <section class="main-hero">
-        <h3>Welcome to the Pretend Chamber of Commerce!</h3>
-        <p><img src="images/1200.jpg" alt="city"></p>
-        
-        <form style="display: inline" action="join.html" method="get">
-        <button>Join Us!</button>
-      </form>   
-      </section>
-      <section class="main-event">
-        <p class="centered-image"><img src="./images/hackathon.jpg" alt="hackathon"></p>
-        <h3>Join us for the annual hackathon!</h3> 
-        <p>Events for all skill ranges!</p>
-      </section>
-      <section class="main-weather">
-        <h3>Current Weather</h3>
-        <img id="weathericon" src="images/weather.jpg" alt="weather">
-        <h2><span id="temperature">?</span>&deg; F</h2>
-        <h2 id="weatherdesc">Clear</h2>
-        <hr>
-        <h3>Wind Speed: <span id="windspeed">?</span> mph</h3>
-        <h3>Wind Chill: <span id="windchill">?</span>&deg; F</h3>
-      </section>
-      <section class="main-news">
-        <h3>Pretend Art Contest</h3>
-        <p class="centered-image"><img src="./images/artcon.jpg" alt="artcon"></p>
-        <p>The pretend art contest was organized to try and bring out the artistic expression of the pretend people. </p>
-        
-        <p>Courtsey of <a href="https://fineartamerica.com/contests.html">fineartamerica.com</a></p>    
-      </section>      
-      <section class="main-spotlight">
-        <div class="spotlight1">
-          <h4>CupBop</h4>
-          <p class="centered-image"><img src="./images/cupbop.jpg" alt="cupbop"></p>
-          <p>cupbop has come to town!</p>      
-          <p>Be sure to stop by and grab a bite!</p>   
-        </div>  
-        <div class="spotlight2">
-          <h4>Local Fire Department</h4>
-          <p class="centered-image"><img src="./images/firredep.jpg" alt="firedep"></p>  
-          <p>Firefighters are the heros of our local community!</p>
-          <p>We thank them for keeping our community safe.</p>      
-        </div>  
-        <div class="spotlight3">
-          <h4>Local Foodbank</h4>
-            <p class="centered-image"><img src="./images/foodbank.jpg" alt="foodbank"></p>  
-            <p>We understand that times are hard, and it can be hard to put food on the table.</p>
-            <p>We’ve been on a passionate journey to help those in need.</p>      
-        </div>  
-      </section>
-      <section class="main-join">
-        <h4>Join the Pretend Chamber of Commerce and experience all we have to offer.</h4> 
-        <form style="display: inline" action="join.html" method="get">
-          <button>Join Us!</button>
-        </form>
-      </section>     
-    </main>
+    <main>
+
+      <div class="blueleft">
+        <h3>Nothing Farms</h3>
+          <hr>    
+
+          <div class="centerimgdiv">
+            <img src="./images/placeholder.jpeg" data-src="./images/farmd.webp" alt="Nothing Farm" >
+          </div>
+          <p>In the heart of nothing lives our farms.</p>
+
+          <p>The local farms are always looking for more help! Head on over if you are looking for a career! We love our nothing farms!
+          </p>
+          <br>
+          
+          <h3>Nothing Hikes!</h3>
+          <hr>
+          <div class="centerimgdiv">
+            <img src="./images/placeholder.jpeg" data-src="./images/hikingd.webp" alt="A hike." >
+          </div>
+          <p>Enjoy our vast and empty nothingness on a hike!</p>
+
+          <p>Nothing offers many unique and desirable locations in the hiking community, join to learn more about our local scenary.
+          </p>
+          <br>
+          
+          <h3>Mountain Biking</h3>
+          <hr>
+          <div class="centerimgdiv">
+
+            <img src="./images/placeholder.jpeg" data-src="./images/bikingd.webp" alt="A bike." >
+          </div>
+          <p>In the heart of nature, Nothing offers many mountain bike trails.</p>
+
+          <p>Enjoy the adrenaline and thrill of a mountain bike and soke up the beauty of Nothing.
+          </p>
+          <br>
+          
+          <h3>Nothing Marathon</h3>
+          <hr>
+          <div class="centerimgdiv">
+            <img src="./images/placeholder.jpeg" data-src="./images/marathon.webp" alt="A race." >
+          </div>
+          <p>In the middle of the summer, Nothing offers a marathon for charity.</p>
+
+          <p>The Nothing marathon helps provide funds to our local Family Crisis Center, we encourage all able bodies to participate in the marathon!
+          </p>
+          <br>
+          
+          <h3>Lake Ashi</h3>
+          <hr>
+          <div class="centerimgdiv">
+            <img src="./images/placeholder.jpeg" data-src="./images/dirtbike.webp" alt="A dirtbike." >
+          </div>
+          <p>If you are into MX, you should check out the Nothing MX club!</p>
+
+          <p>Here at Nothing, we embrace extreme sports and love our MX athletes. Check them out at the Nothing Arena on Sunday evenings.
+          </p>
+          <br>    
+          <br><br><br>
+      </div>
+      
+              
+  </main>
     <footer>
       <div class="footer-content">
         <div class="footer-logo">
-          <img src="./images/Pretend.webp" alt="logo">
+          <img src="./images/logo.webp" alt="logo">
         </div>
         <div class="footer-contact">
-          <h3>Pretend Chamber of Commerce</h3>
-          <p>Nope Main Street</p>
-            <p>Nothing Nowhere USA</p>
-          <p><a href="mailto:notavalidaddress@nowhere.email">info@pretendchamber.org</a></p>
+          <h3> Pretend Chamber of Commerce</h3>
+          <p>Nothing Nowhere USA</p>
+          <p><a href="mailto:notavalidaddress@nowhere.email">pretendchamber.org</a></p>
           <p>208-201-6562</p>
         </div>
         <div class="footer-map">
-          <p><img src="./images/google-maps.png" alt="Google Maps"></p>
-          <a href="https://goo.gl/maps/EN43AGR4jhzawoFu6" target="_blank">Location Map</a>
+          <p><img src="./images/google-maps.png" alt="google-maps"></p>
+          <a href="https://goo.gl/maps/b17zTF1NkiE4FevSA" target="_blank">Location Map</a>
         </div>
       </div>
       <hr>
