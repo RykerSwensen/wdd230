@@ -1,12 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');  
+
+:root {
+    --main: rgb(244, 241, 222);
+    --background-light: rgb(129, 178 ,154);
+    --background-dark: rgb(61, 64, 91);
+    --frame: rgb(242, 204, 143);
+    --accent: rgb(224, 122, 95);
+    --text-main: rgb(255, 255, 255);
+    --text-black: rgb(0, 0, 0);
+
+    --text-1: 'Oswald', Oswald;
+    --text-2: 'Gill Sans', sans-serif;
+}
+
 table{
     border: 1px black solid;
-    border-collapse: collapse   ;
+    border-collapse: collapse;
 }
-
-thread tr {
-    background-color: tan;
+thead tr{
+    background-color: var(--background-light);
 }
-
-thread tr:nth-child(2) th:nth-child(1) {
+thead tr:nth-child(2) th:nth-child(1){
+    background-color: var(--background-light);
+    border-top: var(--accent);
+}
+thead tr:nth-child(2) th{
+    background-color: var(--background-dark);
+}
+tr{
+    /* border: 1px black solid; */
+    background-color: var(--background-dark);
+    color: var(--text-main);
     
+}
+tbody tr:nth-child(even){
+    background-color: var(--background-dark);
+}
+td, th{
+    border: 1px grey solid;
+    padding: 1rem;
+    text-align: center;
+}
+caption{            
+    padding: 1rem;
+    caption-side: bottom;
 }
