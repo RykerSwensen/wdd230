@@ -15,19 +15,6 @@ const displayProphets = (prophets) => {
   
 }; // end of function expression
 
-async function getProphetData() {
-  const response = await fetch(url);
-  if (response.ok) {
-    const data = await response.json();
-    displayProphets(data.prophets);
-  } else {
-    console.error("There was an error loading the data.");
-    const cards = document.querySelector("div.cards");
-    cards.innerHTML = "<section><h1>There was an error loading the data</h1></section>";
-  }
-}
-
-getProphetData();
 
 // This demonstrates another way to handle the fetch response using THEN instead of ASYNC/AWAIT
 
