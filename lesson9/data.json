@@ -1,0 +1,160 @@
+{
+    "businesses": [
+        {
+            "name": "CupBop",
+            "type": "Fast-Food",
+            "location": {
+                "address1": "163 W Main St Suite 103",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "(208) 760-2301",
+            "website": "https://www.eatcupbop.com/",
+            "logo": "lesson9/images/buis1.webp"
+        },
+        {
+            "name": "Stickmen Brewing Company - Happy Valley", 
+            "type": "Food & Drink",
+            "location": {
+                "address1": "13100 SE 172nd Ave Suite 106",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-342-8451",
+            "website": "https://stickmenbeer.com/",
+            "logo": "images/directory/Brewing.png"
+        },
+        {
+            "name": "West End Boutique",
+            "type": "Clothing & Accessories",
+            "location": {
+                "address1": "12000 SE 82nd Ave",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-653-6613",
+            "website": "https://westendboutique.com/",
+            "logo": "images/directory/westend.jfif"
+        },
+        {
+            "name": "Happy Valley Nursery",
+            "type": "Shopping",
+            "location": {
+                "address1": "10800 SE 129th Ave",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-698-6012",
+            "website": "http://www.hvnursery.com/",
+            "logo": "images/directory/nursery.jfif"
+        },
+        {
+            "name": "Pieology Pizzeria",
+            "type": "Food & Drink",
+            "location": {
+                "address1": "12130 SE 82nd Ave",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-303-4486",
+            "website": "https://pieology.com/",
+            "logo": "images/directory/pieology.jfif"
+        },
+        {
+            "name": "Hapy Valley Station Food Carts",
+            "type": "Food & Drink",
+            "location": {
+                "address1": "13551 SE 145th Ave",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97015"
+            },
+            "phone": "503-762-5899",
+            "website": "https://happyvalleystation.com/",
+            "logo": "images/directory/foodcarts.jfif"
+        },
+        {
+            "name": "Hops n Drops",
+            "type": "Food & Drink",
+            "location": {
+                "address1": "17155 SE Sunnyside Rd #152",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-427-2523",
+            "website": "https://hopsndrops.com/",
+            "logo": "images/directory/hopsndrops.jfif"
+        },
+        {
+            "name": "Happy Valley Public Library",
+            "type": "Public Services",
+            "location": {
+                "address1": "13793 SE Sieben Park Way",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97015"
+            },
+            "phone": "503-783-3456",
+            "website": "https://www.happyvalleyor.gov/",
+            "logo": "images/directory/library.jpg"
+        },
+        {
+            "name": "Escapology Escape Rooms",
+            "type": "Entertainment",
+            "location": {
+                "address1": " 11211 SE 82nd Ave Suite P",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-927-1945",
+            "website": "https://www.escapology.com/en/clackamas-or",
+            "logo": "images/directory/escapeology.jpg"
+        },
+        {
+            "name": "Aquatic Park",
+            "type": "Entertainment",
+            "location": {
+                "address1": "7300 SE Harmony Rd",
+                "city": "Milwaukie",
+                "state": "OR",
+                "zip_code": "97222"
+            },
+            "phone": "503-577-7873",
+            "website": "https://ncprd.com/aquatic-park",
+            "logo": "images/directory/aquaticpark.jpg"
+        },
+        {
+            "name": "Happy Valley Park",
+            "type": "Recreation",
+            "location": {
+                "address1": "13770 SE Ridgecrest Rd",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-783-3800",
+            "website": "https://www.happyvalleyor.gov/?NID=143",
+            "logo": "images/directory/park.jpg"
+        },
+        {
+            "name": "Happy Hollow",
+            "type": "Food & Drink",
+            "location": {
+                "address1": "16085 SE Happy Valley Town Center Dr",
+                "city": "Happy Valley",
+                "state": "OR",
+                "zip_code": "97086"
+            },
+            "phone": "503-427-2961",
+            "website": "http://www.happyhollowpizza.com/",
+            "logo": "images/directory/happyhollow.jfif"
+        }
+    ]
+}

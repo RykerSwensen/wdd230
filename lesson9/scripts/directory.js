@@ -1,52 +1,108 @@
-const url = 'https://goosee5.github.io/wdd230/chamber/data.json';
-
-async function getProphetData(url) {
-    const response = await fetch(url);
-    const data = await response.json();
-    //console.table(data.prophets);
-    displayProphets(data.prophets);
-  }
-  
-  getProphetData(url);
+const requestURL = 'https://rykerswensen.github.io/wdd230/lesson9/directory.json';
+const list = document.querySelector('#list');
+const table = document.querySelector('.table');
+const grid = document.querySelector('#grid');
+const cards = document.querySelector('.cards');
+const displayItems = document.querySelector('.displayItems');
 
 
-  const displayProphets = (prophets) => {
+async function getData(requestURL) {
+    const response = await fetch(requestURL);
+    if (response.ok) {
+        const data = await response.json();
+        // console.log(data);
+        const businesses = data['businesses'];
 
-    const cards = document.querySelector('div.cards'); // select the output container element
-  
-    prophets.forEach((prophet) => {
-      // Create elements to add to the div.cards element
-      let card = document.createElement('section');
-      let h2 = document.createElement('h2');
-      let portrait = document.createElement('img');
-      let p = document.createElement('p');
-      let birthplace = document.createElement('p');
-      let birthdate = document.createElement('p');
-      let death = document.createElement('p');
+        businesses.forEach(business => {
+            displayCards(business);
+        });
+        
+        list.addEventListener('click', () => {
+            table.innerHTML = '';
+            cards.innerHTML = '';
+            businesses.forEach(business => {
+                displayTable(business);
+            });
+        });
 
+        grid.addEventListener('click', () => {
+            table.innerHTML = '';
+            cards.innerHTML = '';
+            businesses.forEach(business => {
+                displayCards(business);
+            });
+        });
+    }
+}
 
+getData(requestURL);
 
+function displayCards(business) {
+    let card = document.createElement('section');
 
-      // Build the h2 content out to show the prophet's full name - finish the template string
-      h2.textContent = `${prophet.name} ${prophet.lastname} `;
-      p.textContent = `Birthplace: ${prophet.birthplace} Birthday: ${prophet.birthdate} Death date: ${prophet.death}`;
+    // Business Image
+    let image = document.createElement('img');
+    image.setAttribute('src', business.logo);
+    image.setAttribute('alt', `${business.name} Logo`);
+    card.appendChild(image);
+    
+    // Business Name
+    let h2 = document.createElement('h2');
+    h2.textContent = business.name;
+    card.appendChild(h2);
 
-  
-      // Build the image portrait by setting all the relevant attribute
-      portrait.setAttribute('src', prophet.imageurl);
-      portrait.setAttribute('alt', `Portait of ${prophet.name} ______________`);
-      portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '340');
-      portrait.setAttribute('height', '440');
-  
-      // Append the section(card) with the created elements
-      card.appendChild(h2);
-      card.appendChild(p);
-      card.appendChild(birthplace);
-      card.appendChild(birthdate);
+    // Business Type
+    let type = document.createElement('p');
+    type.textContent = business.type;
+    card.appendChild(type);
 
-      card.appendChild(death);
-      card.appendChild(portrait);
-      cards.appendChild(card);
-    }) // end of forEach loop
-  }// end of function expression
+    // Business Address
+    let address = document.createElement('p');
+    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
+    card.appendChild(address);
+
+    // Business Phone
+    let phone = document.createElement('p');
+    phone.textContent = business.phone;
+    card.appendChild(phone);
+
+    // Business Website
+    let website = document.createElement('a');
+    website.setAttribute('href', business.website);
+    website.textContent = 'Website';
+    card.appendChild(website);
+
+    // Append card to the DOM (the prophet list).
+    document.querySelector('div.cards').appendChild(card);
+}
+
+function displayTable(business) {
+    let tableRow = document.createElement('tr');
+
+    // Business Name
+    let name = document.createElement('td');
+    name.textContent = business.name;
+    tableRow.appendChild(name);
+
+    // Business Type
+    let type = document.createElement('td');
+    type.textContent = business.type;
+    tableRow.appendChild(type);
+
+    // Business Address
+    let address = document.createElement('td');
+    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
+    tableRow.appendChild(address);
+
+    // Business Phone
+    let phone = document.createElement('td');
+    phone.textContent = business.phone;
+    tableRow.appendChild(phone);
+
+    // Business Website
+    let website = document.createElement('td');
+    website.innerHTML = `<a href="${business.website}">Website</a>`;
+    tableRow.appendChild(website);
+
+    document.querySelector('table').appendChild(tableRow);
+}
