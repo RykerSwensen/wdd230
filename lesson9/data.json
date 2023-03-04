@@ -14,147 +14,95 @@
             "logo": "lesson9/images/buis1.webp"
         },
         {
-            "name": "Stickmen Brewing Company - Happy Valley", 
-            "type": "Food & Drink",
+            "name": "Taehatypes", 
+            "type": "Custom Keyboards",
             "location": {
-                "address1": "13100 SE 172nd Ave Suite 106",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
+                "address1": "https://www.taehatypes.com/",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
             },
-            "phone": "503-342-8451",
-            "website": "https://stickmenbeer.com/",
-            "logo": "images/directory/Brewing.png"
+            "phone": "123-456-7890",
+            "website": "https://www.taehatypes.com/",
+            "logo": "lesson9/images/taehatypes.png"
         },
         {
-            "name": "West End Boutique",
-            "type": "Clothing & Accessories",
+            "name": "Homer",
+            "type": "Jewlery",
             "location": {
-                "address1": "12000 SE 82nd Ave",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
+                "address1": "74 Bowery",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
             },
-            "phone": "503-653-6613",
-            "website": "https://westendboutique.com/",
-            "logo": "images/directory/westend.jfif"
+            "phone": "123-456-7890",
+            "website": "https://www.homer.com/pages/homer-new-york-store",
+            "logo": "lesson9/images/Homer.webp"
         },
         {
-            "name": "Happy Valley Nursery",
-            "type": "Shopping",
+            "name": "NBA G League Ignite",
+            "type": "Sports",
             "location": {
-                "address1": "10800 SE 129th Ave",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
+                "address1": "Made Up Place",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
             },
-            "phone": "503-698-6012",
-            "website": "http://www.hvnursery.com/",
-            "logo": "images/directory/nursery.jfif"
+            "phone": "123-456-7890",
+            "website": "https://ignite.gleague.nba.com/",
+            "logo": "lesson9/images/Ignite.avif"
         },
         {
-            "name": "Pieology Pizzeria",
-            "type": "Food & Drink",
+            "name": "Alphaland",
+            "type": "Gym & Fitness",
             "location": {
-                "address1": "12130 SE 82nd Ave",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
+                "address1": "Sugar Land",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
             },
-            "phone": "503-303-4486",
-            "website": "https://pieology.com/",
-            "logo": "images/directory/pieology.jfif"
+            "phone": "123-456-7890",
+            "website": "https://alphalandstore.com/",
+            "logo": "lesson9/images/alphaland.webp"
         },
         {
-            "name": "Hapy Valley Station Food Carts",
-            "type": "Food & Drink",
+            "name": "Rexburg Floral",
+            "type": "Florist",
             "location": {
-                "address1": "13551 SE 145th Ave",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97015"
+                "address1": "175 North Center Street ",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
             },
-            "phone": "503-762-5899",
-            "website": "https://happyvalleystation.com/",
-            "logo": "images/directory/foodcarts.jfif"
+            "phone": "123-456-7890",
+            "website": "https://www.rexburgfloral.com/",
+            "logo": "lesson9/images/rfloral.webp"
         },
         {
-            "name": "Hops n Drops",
-            "type": "Food & Drink",
+            "name": "Rexburg Animal Shelter",
+            "type": "Animal Shelter",
             "location": {
-                "address1": "17155 SE Sunnyside Rd #152",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
+                "address1": "25 East Main Street",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
             },
-            "phone": "503-427-2523",
-            "website": "https://hopsndrops.com/",
-            "logo": "images/directory/hopsndrops.jfif"
+            "phone": "123-456-7890",
+            "website": "https://www.rexburg.org/police/page/animal-shelter",
+            "logo": "lesson9/images/ranimal.png"
         },
         {
-            "name": "Happy Valley Public Library",
-            "type": "Public Services",
+            "name": "Rexburg Barber Shop",
+            "type": "Haircuts",
             "location": {
-                "address1": "13793 SE Sieben Park Way",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97015"
+                "address1": "50 N 2nd East",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
             },
-            "phone": "503-783-3456",
-            "website": "https://www.happyvalleyor.gov/",
-            "logo": "images/directory/library.jpg"
-        },
-        {
-            "name": "Escapology Escape Rooms",
-            "type": "Entertainment",
-            "location": {
-                "address1": " 11211 SE 82nd Ave Suite P",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
-            },
-            "phone": "503-927-1945",
-            "website": "https://www.escapology.com/en/clackamas-or",
-            "logo": "images/directory/escapeology.jpg"
-        },
-        {
-            "name": "Aquatic Park",
-            "type": "Entertainment",
-            "location": {
-                "address1": "7300 SE Harmony Rd",
-                "city": "Milwaukie",
-                "state": "OR",
-                "zip_code": "97222"
-            },
-            "phone": "503-577-7873",
-            "website": "https://ncprd.com/aquatic-park",
-            "logo": "images/directory/aquaticpark.jpg"
-        },
-        {
-            "name": "Happy Valley Park",
-            "type": "Recreation",
-            "location": {
-                "address1": "13770 SE Ridgecrest Rd",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
-            },
-            "phone": "503-783-3800",
-            "website": "https://www.happyvalleyor.gov/?NID=143",
-            "logo": "images/directory/park.jpg"
-        },
-        {
-            "name": "Happy Hollow",
-            "type": "Food & Drink",
-            "location": {
-                "address1": "16085 SE Happy Valley Town Center Dr",
-                "city": "Happy Valley",
-                "state": "OR",
-                "zip_code": "97086"
-            },
-            "phone": "503-427-2961",
-            "website": "http://www.happyhollowpizza.com/",
-            "logo": "images/directory/happyhollow.jfif"
+            "phone": "123-456-7890",
+            "website": "https://www.facebook.com/people/Rexburg-Barbershop/100063757135117/",
+            "logo": "lesson9/images/rbarber.jpg"
         }
     ]
 }

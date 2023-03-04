@@ -1,4 +1,4 @@
-const requestURL = 'https://rykerswensen.github.io/wdd230/lesson9/directory.json';
+const requestURL = 'https://rykerswensen.github.io/wdd230/lesson9/data.json';
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
