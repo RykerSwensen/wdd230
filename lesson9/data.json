@@ -11,7 +11,7 @@
             },
             "phone": "(208) 760-2301",
             "website": "https://www.eatcupbop.com/",
-            "logo": "./images/buis1.webp"
+            "logo": "images/buis1.webp"
         },
         {
             "name": "Taehatypes", 
@@ -24,7 +24,8 @@
             },
             "phone": "123-456-7890",
             "website": "https://www.taehatypes.com/",
-            "logo": "./images/taehatypes.png"
+            "logo": "images/taehatypes.png"
+            
         },
         {
             "name": "Homer",
@@ -37,7 +38,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://www.homer.com/pages/homer-new-york-store",
-            "logo": "./images/Homer.webp"
+            "logo": "images/Homer.webp"
         },
         {
             "name": "NBA G League Ignite",
@@ -50,7 +51,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://ignite.gleague.nba.com/",
-            "logo": "./images/Ignite.avif"
+            "logo": "images/Ignite.avif"
         },
         {
             "name": "Alphaland",
@@ -63,7 +64,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://alphalandstore.com/",
-            "logo": "./images/alphaland.webp"
+            "logo": "images/alphaland.webp"
         },
         {
             "name": "Rexburg Floral",
@@ -76,7 +77,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://www.rexburgfloral.com/",
-            "logo": "./images/rfloral.webp"
+            "logo": "images/rfloral.webp"
         },
         {
             "name": "Rexburg Animal Shelter",
@@ -89,7 +90,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://www.rexburg.org/police/page/animal-shelter",
-            "logo": "./images/ranimal.png"
+            "logo": "images/ranimal.png"
         },
         {
             "name": "Rexburg Barber Shop",
@@ -102,7 +103,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://www.facebook.com/people/Rexburg-Barbershop/100063757135117/",
-            "logo": "./images/rbarber.jpg"
+            "logo": "images/rbarber.jpg"
         }
     ]
 }
