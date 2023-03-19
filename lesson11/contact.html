@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Chamber of Commerce Demonstration Site for WDD 230 - Winter 2023 - BYU-Idaho" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Demonstration Site for WDD 230 - Winter 2023 - BYU-Idaho">
     <title>Pretend Chamber of Commerce - Home</title>
     <link rel="icon" href="images/logo.webp">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link rel="stylesheet" href="./styles/base.css" />
-    <link rel="stylesheet" href="./styles/medium.css" />
-    <link rel="stylesheet" href="./styles/large.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">    
     <script src="./scripts/header-footer.js" defer></script>
-    <script src="./scripts/lazy.js" defer></script>    
+    <script src="./scripts/main.js" defer></script>
     <script src="./scripts/visits.js" defer></script>
   </head>
   <body>
@@ -20,15 +20,15 @@
       <div id="meet-greet">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
       <div class="header-top">        
           <div class="header-logo">
-            <a href="..\index.html"><img src="images/logo.webp" /></a>            
+            <a href="../index.html"><img src="./images/logo.webp" alt="Logo"></a>            
           </div>          
           <div class="header-title">
             <h1>Pretend Chamber of Commerce</h1>
-             <p>It has been <span id="timeBetweenVisits">too many</span> days since your last visit.</p>
+            <p>It has been <span id="timeBetweenVisits">too many</span> days since your last visit.</p>
           </div>
           <div class="header-icons">
-            <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" /></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin.png" /></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" alt="Twitter Logo"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn Logo"></a>
           </div>
       </div>
       <nav>
@@ -171,28 +171,26 @@
     </main>
     <footer>
       <div class="footer-content">
-        <div class="footer-logo">
-          <img src="./images/logo.webp" />
+          <div class="footer-logo">
+            <img src="./images/logo.webp" alt="logo">
+          </div>
+          <div class="footer-contact">
+            <h3>Pretend Chamber of Commerce</h3>
+            <p>Nothing Nowhere</p>
+            <p><a href="mailto:notavalidaddress@nowhere.email">info@nothing.org</a></p>
+            <p>999-999-9999</p>
+            <p>Weather Data from this API: <a href="https://openweathermap.org/">Weather</a></p>
+          </div>
+          <div class="footer-map">
+            <p><img src="./images/google-maps.png" alt="Google Maps"></p>
+            <a href="https://www.google.com/maps/place/Nothing+Nowhere/@42.4398,-76.5001777,17z/data=!3m1!4b1!4m6!3m5!1s0x89d08102060eeab7:0x14590c7dd6011df8!8m2!3d42.4398!4d-76.497989!16s%2Fg%2F11fr61lqyf" target="_blank">Location Map</a>
+          </div>
         </div>
-        <div class="footer-contact">
-          <h3>Pretend Chamber of Commerce</h3>
-          <p>Nothing<br />Nowhere</p>
-          <p><a href="mailto:notavalidaddress@nowhere.email">info@nothing.org</a></p>
-          <p>999-999-9999</p>
-          <p>Weather Data from this API: <a href="https://openweathermap.org/">Weather</a></p>
+        <hr>
+        <div class="footer-base">
+          <p>&copy; <span id="currentyear"></span> | Ryker Swensen | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p>
         </div>
-        <div class="footer-map">
-          <p><img src="./images/google-maps.png"></p>
-          <a href="https://www.google.com/maps/place/Nothing+Nowhere/@42.4398,-76.5001777,17z/data=!3m1!4b1!4m6!3m5!1s0x89d08102060eeab7:0x14590c7dd6011df8!8m2!3d42.4398!4d-76.497989!16s%2Fg%2F11fr61lqyf" target="_blank">Location Map</a>
-        </div>
-      </div>
-      <hr />
-      <div class="footer-base">
-        <p>&copy; <span id="currentyear"></span> | Ryker Swensen | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p>
-      </div>
-    </footer>
-  </body>
+  </footer>
+</body>
 </html>
-
-
 
