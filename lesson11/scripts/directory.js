@@ -24,7 +24,7 @@ listSelector.addEventListener('click', ()=>{
 
 
 // Load JSON data and do stuff
-const url = "./data.json";
+const url = "https://rykerswensen.github.io/wdd230/lesson11/data.json";
 
 // COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
 // Using the innerHTML version is a little less Javascript intensive.
