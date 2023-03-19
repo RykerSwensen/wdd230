@@ -96,16 +96,19 @@ nav ul li a{
     padding: 1rem;
     background-color:var(--background-dark);  
     font-size: 1.25rem;
+    color: var(--text-main);
+
 }
 
 nav ul li a.active{
-    background-color:var(--accent);      
+    background-color:var(--accent);
+    color: black;      
 }
 
 
 nav ul li a:hover{    
     background-color:var(--background-light);      
-    color: white;
+    color: black;
 }
 
 #hamburger-menu{
@@ -445,4 +448,12 @@ label.myinput{
 
 .centerimgdiv:hover{
     transform: scale(1.05);
+}
+
+a:link {
+    color: black;
+  }
+
+a{
+    color: black;
 }
