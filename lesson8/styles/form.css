@@ -1,9 +1,25 @@
-.centerform{
+#centerform{
     text-align: left;
     padding: 20px;
     width: 100%;
 }
 
+#tiers{
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    color: white;  
+    margin: 20px;
+}
+
+#tiers h2{
+    color: rgb(131, 218, 255);
+}
+
+#tiers h3{
+    color: rgb(255, 178, 101);
+}
 
 /* Styling for the form container */
 .form-container {
@@ -54,3 +70,17 @@ input[type="submit"]:hover {
 :required {
     border: 1px solid red;
 }
+
+#containerform {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+/* Mobile first media query */
+@media (min-width: 768px) {
+    #tiers, #centerform {
+        width: 40%;
+      }
+
+}
+  

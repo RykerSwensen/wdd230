@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chamber of Commerce Demonstration Site for WDD 230 - Winter 2023 - BYU-Idaho" />
+    <title>Pretend Chamber of Commerce - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/medium.css" />
+    <link rel="stylesheet" href="./styles/large.css" />    
+    <script src="./scripts/header-footer.js" defer></script>
+    <script src="./scripts/lazy.js" defer></script>    
+    <script src="./scripts/visits.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="meet-greet">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+      <div class="header-top">        
+          <div class="header-logo">
+            <a href="..\index.html"><img src="images/logo.webp" /></a>            
+          </div>          
+          <div class="header-title">
+            <h1>Pretend Chamber of Commerce</h1>
+             <p>It has been <span id="timeBetweenVisits">too many</span> days since your last visit.</p>
+          </div>
+          <div class="header-icons">
+            <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" /></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin.png" /></a>
+          </div>
+      </div>
+      <nav>
+        <button id="hamburger-menu">
+          <span id="hamburger-x"><img src="./images/hamburger-close.png"></span>
+          <span id="hamburger-equiv"><img src="./images/hamburger.png"></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-today"><p></p></div>
+    </header>
+    <main>
+
+
+        <section class="contact-page">
+            <h3>Contact Information</h3>
+            <hr>
+            <p><span>&#x1F4CC;</span>Nothing, Nowhere, USA</p>
+            <p><span>&#x1F4DE;</span>(999) 999-9999</p>
+            <p><span>&#x1F4E7;</span>info@nothing.org</p>
+            <div>
+              
+          <h3>Social Media</h3>
+              <hr>
+
+              <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" /></a>
+              <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin.png" /></a>
+            </div>
+            <br>
+    
+        </section>
+    
+        <div class="contact-form">
+            <h2 class="contact-heading">If you have any questions or concerns please contact us by filling the following
+                form:</h2>
+            <form method="get" action="thankyou.html">
+    
+            <fieldset class="form">
+    
+                <legend>Applicant Information</legend>
+                <!--full name-->
+                <label class="top" for="name">Full Name(required)
+                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+                <!--I need to add more here, see the requirement page-->
+    
+    
+                <!--email-->
+                <label class="top" for="mail">E-mail Address
+                    <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
+    
+    
+                <!--phone number-->
+                <label class="top" for="phone">Phone Number(required)
+                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
+                        required></label>
+    
+    
+                <!--zip code-->
+                <label class="top" for="zip">ZIP Code(required)
+                    <input class="box" type="number" id="zip" name="zip_code" required></label>
+    
+            </fieldset>
+    
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label class="submitButton" for="msg">Comments</label>
+                <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+            </fieldset>
+    
+            <!--form submission button-->
+            <input class="button" type="submit" value="Send Form">
+        </form>
+        </div>
+    
+    
+    
+    
+    
+        <section class="board-background">
+            <h2>Board of Directors</h2>
+            <hr>
+            <p> <strong>"It has always been considered an honor to serve the board of Nothing."</strong></p>
+            <div class="board-of-directors">
+                <figure>
+                    <img class="shadow" src="images/placeholder.jpeg" data-src="images/man1.jpg" alt="man with glasses">
+                    <figcaption>Bob Bobby<br>Chair of<br> the Board</figcaption>
+                </figure>
+                <figure>
+                    <img class="shadow" src="images/placeholder.jpeg" data-src="images/man2.jpg"
+                        alt="image of man smiling">
+                    <figcaption>Jeff Jefferey <br>
+                        CupBop <br>Manager</figcaption>
+                </figure>
+    
+    
+                <figure>
+                    <img class="shadow"src="images/placeholder.jpeg" data-src="images/man3.jpg"
+                        alt="image of young man">
+                    <figcaption>Matt Matthie<br>
+                        Taeha <br>Types</figcaption>
+                </figure>
+                <figure>
+                    <img class="shadow" src="images/placeholder.jpeg" data-src="images/man4.jpg" alt="woman smiling">
+                    <figcaption>James Jameson<br>
+                        MX<br>Organizer</figcaption>
+                </figure>
+                <figure>
+                    <img class="shadow" src="images/placeholder.jpeg" data-src="images/man5.jpg"
+                        alt="image of young woman">
+                    <figcaption>Mary Marie<br>Nothing <br>Elementary</figcaption>
+                </figure>
+                <figure>
+                    <img class="shadow" src="images/placeholder.jpeg" data-src="images/man6.jpg"
+                        alt="man profile image">
+                    <figcaption>Peter Pete<br>Nothing Plaza<br> Clinic</figcaption>
+                </figure>
+                <figure>
+                    <img class="shadow" src="images/placeholder.jpeg" data-src="images/man7.jpg"
+                        alt="man profile image">
+                    <figcaption>Daniel Dan<br>Law Offices of <br>Nothing Nowhere
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="shadow" src="images/placeholder.jpeg" data-src="images/man8.jpg"
+                        alt="woman smiling profile image">
+                    <figcaption>Sam Samuel<br>Nothing Union<br> High School District
+                    </figcaption>
+                </figure>
+    
+    
+            </div>
+        </section>
+    
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./images/logo.webp" />
+        </div>
+        <div class="footer-contact">
+          <h3>Pretend Chamber of Commerce</h3>
+          <p>Nothing<br />Nowhere</p>
+          <p><a href="mailto:notavalidaddress@nowhere.email">info@nothing.org</a></p>
+          <p>999-999-9999</p>
+          <p>Weather Data from this API: <a href="https://openweathermap.org/">Weather</a></p>
+        </div>
+        <div class="footer-map">
+          <p><img src="./images/google-maps.png"></p>
+          <a href="https://www.google.com/maps/place/Nothing+Nowhere/@42.4398,-76.5001777,17z/data=!3m1!4b1!4m6!3m5!1s0x89d08102060eeab7:0x14590c7dd6011df8!8m2!3d42.4398!4d-76.497989!16s%2Fg%2F11fr61lqyf" target="_blank">Location Map</a>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-base">
+        <p>&copy; <span id="currentyear"></span> | Ryker Swensen | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

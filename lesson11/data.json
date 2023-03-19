@@ -1,0 +1,109 @@
+{
+    "businesses": [
+        {
+            "name": "CupBop",
+            "type": "Fast-Food",
+            "location": {
+                "address1": "163 W Main St Suite 103",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "(208) 760-2301",
+            "website": "https://www.eatcupbop.com/",
+            "logo": "images/buis1.webp"
+        },
+        {
+            "name": "Taehatypes", 
+            "type": "Custom Keyboards",
+            "location": {
+                "address1": "https://www.taehatypes.com/",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "https://www.taehatypes.com/",
+            "logo": "images/taehatypes.png"
+            
+        },
+        {
+            "name": "Homer",
+            "type": "Jewlery",
+            "location": {
+                "address1": "74 Bowery",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "https://www.homer.com/pages/homer-new-york-store",
+            "logo": "images/Homer.webp"
+        },
+        {
+            "name": "NBA G League Ignite",
+            "type": "Sports",
+            "location": {
+                "address1": "Made Up Place",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "https://ignite.gleague.nba.com/",
+            "logo": "images/Ignite.avif"
+        },
+        {
+            "name": "Alphaland",
+            "type": "Gym & Fitness",
+            "location": {
+                "address1": "Sugar Land",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "https://alphalandstore.com/",
+            "logo": "images/alphaland.webp"
+        },
+        {
+            "name": "Rexburg Floral",
+            "type": "Florist",
+            "location": {
+                "address1": "175 North Center Street ",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "https://www.rexburgfloral.com/",
+            "logo": "images/rfloral.webp"
+        },
+        {
+            "name": "Rexburg Animal Shelter",
+            "type": "Animal Shelter",
+            "location": {
+                "address1": "25 East Main Street",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "https://www.rexburg.org/police/page/animal-shelter",
+            "logo": "images/ranimal.png"
+        },
+        {
+            "name": "Rexburg Barber Shop",
+            "type": "Haircuts",
+            "location": {
+                "address1": "50 N 2nd East",
+                "city": "Nothing",
+                "state": "Nowhere",
+                "zip_code": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "https://www.facebook.com/people/Rexburg-Barbershop/100063757135117/",
+            "logo": "images/rbarber.jpg"
+        }
+    ]
+}

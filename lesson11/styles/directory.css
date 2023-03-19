@@ -1,0 +1,200 @@
+img {
+    width: 100px;
+}
+
+.directory-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+  }
+  
+  .directory-cards section {
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    margin: .5rem;
+  }
+  
+  .directory-cards .gold-member {
+    /* box-shadow: 0 0 5px #ffc400; */
+    box-shadow: 2px 2px 2px gold;
+  }
+  
+  .directory-cards a {
+    text-decoration: none;
+    color: #000;
+    overflow-wrap: break-word;
+    font-size: 70%;
+  }
+  
+  /* List View */
+  
+  .directory-list {
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+  }
+  
+  .directory-list section img {
+    display: none;
+  }
+  
+  
+  .directory-list section:nth-child(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  .directory-list section:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .directory-list section div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .directory-list section div:nth-child(2) {
+    justify-content: flex-end;
+  }
+  
+  .directory-list section div:nth-child(3) {
+    justify-content: center;
+  }
+  
+  .directory-list section div:nth-child(4) {
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 2px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0077cc;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #006699;
+    color: #ffffff;
+  }
+  
+  button:active{
+    background-color: #005588;
+    color: #ffffff;
+  }
+  
+  .t1{
+    padding: 3px;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+  
+  .t2{
+    padding: 3px;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+  
+  .t3{
+    padding: 3px;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+  
+  .t4{
+    padding: 3px;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px){
+    .t1{
+      width: 6rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .t2{
+      width: 6rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .t3{
+      width: 6rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .t4{
+      width: 6rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .directory-list section {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      width: 70%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .t1{
+      width: 10rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .t2{
+      width: 10rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .t3{
+      width: 10rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .t4{
+      width: 10rem;
+      text-align: left;
+      padding: 3px;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+    .directory-list section {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      width: 70%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+  }
